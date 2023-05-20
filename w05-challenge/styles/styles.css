@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1280px;
+}
+
+.top-section {
+    margin-bottom: 0px;
+    margin-left:40px;
+    margin-right:40px;
+}
+.picture-back {
+    background-image: url("pictures/w05_circles.jpg");
+    margin: 0;
+}
+
+.bottom-section {
+    background-color: gray;
+    width: 100%;
+    margin-top: -5px;
+    margin-left:40px;
+    margin-right:40px
+
+}
+
+.image-container {
+    display: inline;
+    margin-left:40px;
+    margin-right:40px
+}
+
+.image-container img {
+    border-radius: 50%;
+    border: 20px solid rgb(77, 76, 76);
+    margin: 28px;
+}
+
