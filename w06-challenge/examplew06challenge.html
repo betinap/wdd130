@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página web de ejemplo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Divide la página en dos columnas */
+      height: 100vh; /* Establece la altura de la página al 100% del viewport */
+    }
+    
+    .half-white {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .half-gray {
+      background-color: lightgray;
+      display: flex;
+      align-items: flex-end;
+      padding-left: 20px;
+      padding-bottom: 20px;
+    }
+    
+    .image {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    
+    .caption {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .cherries-caption {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="half-white">
+    <img class="image" src="image/rsz_w06_cherries.png" alt="Cherries">
+  </div>
+  <div class="half-gray">
+    <div>
+      <p class="caption">Tart & sweet</p>
+      <p class="cherries-caption">Cherries</p>
+    </div>
+  </div>
+</body>
+</html>
