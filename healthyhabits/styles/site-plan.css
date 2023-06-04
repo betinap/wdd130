@@ -2,6 +2,9 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Tsukimi+Rounded:wght@500&display=swap');
+
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #6c584c  ;
@@ -10,7 +13,7 @@ Fonts are separated by a | */
   --accent2-color: #dde5b6;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Poppins", "Roboto", Sans Serif;
+  --heading-font: "Tsukimi Rounded", "Roboto", Sans-Serif;
   --paragraph-font: "Open Sans", "Roboto", Sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
