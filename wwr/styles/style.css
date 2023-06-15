@@ -202,6 +202,81 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* Start to style for the new page called Rivers*/
+
+#rivers {
+    text-align: center;
+    font-family: "Open Sans", "Lato", sans-serif;
+    font-style: oblique;
+    color: #4f6d7a;
+    background-color: #c0d6df ;
+    padding: 40px;
+    margin: 50px auto 100px;
+   
+}
+.salmon-river, .green-river, .grandcanyon-river {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.salmon-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    padding: 70px;
+    margin: auto;
+    background-color: #dd6e42 ;
+}
+.salmon-para {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 1.1em;
+    color: #4f6d7a;
+    word-spacing: 5px;
+    padding: 80px 100px;
+}
+
+.green-para {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1.1em;
+    color: #4f6d7a;
+    margin: 20px;
+    padding: 80px 100px;
+    word-spacing: 5px;
+}
+.green-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 70px;
+    margin: auto;
+    background-color: #dd6e42 ;
+
+}
+
+.grandcayon-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    padding: 70px;
+    margin: auto;
+    background-color: #dd6e42 ;
+
+
+}
+.grandcayon-para {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    font-size: 1.1em;
+    color:#4f6d7a;
+    margin: 90px;
+    padding: 80px 80px;
+    
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
