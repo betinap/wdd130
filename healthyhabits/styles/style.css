@@ -46,7 +46,7 @@ main {
     gap: 5px;
 }
 
-.title {
+.heading {
     grid-row: 1/2;
     grid-column: 2/11;
     color: #6c584c;
@@ -118,7 +118,7 @@ footer p a:hover {
 footer a {
     color:#dde5b6;
     text-decoration: none;
-    font-family: "Open Sans", "Roboto", Sans-serif; /*verificar si sirve este dato*/
+    font-family: "Open Sans", "Roboto", Sans-serif; /*verificar si funciona*/
 }
 
 footer a:hover {
@@ -128,4 +128,9 @@ footer a:hover {
 footer .social img {
     padding: 10px;
 }
+
+/* Start styling page 2 called Food */
+
+
+
 
