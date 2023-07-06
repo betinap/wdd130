@@ -189,46 +189,6 @@ footer .social img {
     height: 30%;
 }
 
-.container-img {
-    position: relative;
-    width: 50%;
-}
-
-.food-img2 {
-    opacity: 1;
-    display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.container:hover .food-img2 {
-    opacity: 0.3;
-}
-
-.container:hover .middle {
-    opacity: 1;
-}
-
-.text {
-    background-color: #adc178;
-    color: white;
-    font-family: "Open Sans", "Roboto", Sans-serif;
-    font-size: 16px;
-    padding: 16px 32px;
-}
-
-
 /* Start styling page 3 called Exercise */
 
 #exercise {
