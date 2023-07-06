@@ -15,7 +15,7 @@ nav a {
     font-family: "Open Sans", "Roboto", Sans-serif;
     text-decoration:none;
     font-weight:bold;
-    font-size: 1.5em;
+    font-size: 3em;
     padding: 35px;
 }
 nav a:hover {
@@ -51,7 +51,7 @@ main {
 .heading {
     grid-row: 1/2;
     grid-column: 2/11;
-    color: #6c584c;
+    color: #dde5b6;
     background-color:#a98467;
     margin-top: 40px;
     font-family: "Tsukimi Rounded", "Roboto", Sans-Serif;
@@ -87,6 +87,7 @@ main {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    line-height: 55px;
 
 }
 .food-img, .exercise-img {
@@ -133,6 +134,129 @@ footer .social img {
 
 /* Start styling page 2 called Food */
 
+#food {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.food-title {
+    color: #dde5b6;
+    background-color:#a98467;
+    margin-top: 40px;
+    font-family: "Tsukimi Rounded", "Roboto", Sans-Serif;
+    font-size:2.2em;
+    font-style: oblique;
+    height: 150px;
+    margin:30px 150px;
 
 
 
+}
+.food-subtitle1 h2, .food-subtitle2 h2 {
+    color: #6c584c;
+    font-family:"Tsukimi Rounded", "Roboto", Sans-Serif;
+    background-color: #adc178;
+    margin:10px 150px;
+    font-size: 2em;
+    text-align: center;
+    padding: 30px;
+    height: 30%;
+
+}
+.natural-para, .medicine-para {
+    color: #6c584c;
+    font-family: "Open Sans", "Roboto", Sans-serif;
+    font-size: 1.7em;
+    text-align: justify;
+    line-height: 55px;
+    margin:30px 150px;
+}
+.food-img2 {
+    float: right;
+    margin: 65px 150px 5px 55px;
+    width: 60%;
+    height: 60%;
+
+}
+.herbs-img {
+    float: left;
+    margin: 55px 50px 15px 150px;
+    width: 65%;
+    height: 30%;
+
+}
+
+/* Start styling page 3 called Exercise */
+
+#exercise {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+    gap: 5px;
+}
+ .exercise-title {
+    grid-row: 1/2;
+    grid-column: 2/11;
+    color: #6c584c;
+    background-color:#a98467;
+    margin-top: 40px;
+    font-family: "Tsukimi Rounded", "Roboto", Sans-Serif;
+    font-size:2.2em;
+    text-align: center;
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+ }
+
+ .exercise-subtitle1 {
+    grid-column: 2/11;
+    grid-row: 2/3;
+}
+.exercise-subtitle2 {
+    grid-column: 2/11;
+    grid-row: 7/8;
+}
+
+.exercise-subtitle1 h2, .exercise-subtitle2 h2 {
+    color: #6c584c;
+    font-family:"Tsukimi Rounded", "Roboto", Sans-Serif;
+    background-color: #adc178;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    height: 30%;
+}
+
+.training {
+    grid-column: 2/6;
+    grid-row: 3/7;
+    
+}
+.friends {
+    grid-column: 7/11;
+    grid-row: 3/7;
+
+}
+.yoga {
+    grid-column: 2/6;
+    grid-row: 8/12;
+
+}
+.relax {
+    grid-column: 7/11;
+    grid-row: 8/12;
+}
+.training, .relax {
+    color: #6c584c;
+    font-family: "Open Sans", "Roboto", Sans-serif;
+    font-size: 1.7em;
+    text-align:justify;
+    padding: 20px;
+
+}
