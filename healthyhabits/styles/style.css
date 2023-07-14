@@ -75,18 +75,23 @@ main {
     text-align: center;
     padding: 20px;
 }
-.food-home p, .exercise-home p {
+.food-home p, .exercise-home p, li {
     color: #6c584c;
     font-family: "Open Sans", "Roboto", Sans-serif;
     font-size: 1.9em;
     text-align:justify;
-    padding: 20px;
+    padding: 10px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     line-height: 55px;
+    text-indent: 5%;
+}
+li {
+    margin-block-start: 0.3%;
+    margin-block-end: 0.3%;
 
 }
 .food-img, .exercise-img {
