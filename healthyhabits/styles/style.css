@@ -30,7 +30,7 @@ header{
 }
 #logo_link {
     padding-top: 5px;
-    justify-self: center;
+    justify-self: right;
     align-self: center;
 }
 .logo {
